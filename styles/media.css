@@ -248,7 +248,7 @@
 }
 @media screen and (max-width: 414px){
     .title{
-        font-size: 100px;
+        font-size: 90px !important;
     }
     .panel{
         flex-wrap: wrap;
@@ -265,7 +265,7 @@
 }
 @media screen and (max-width:375px){
     .title{
-        font-size: 90px;
+        font-size: 90px !important;
     }
     .colMd div{
         font-size: 24px;
@@ -357,9 +357,9 @@
         left: 5%;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 321px){
     .title{
-        font-size: 70px;
+        font-size: 80px !important;
     }
     .title::after{
         top: 30%;
@@ -418,6 +418,12 @@
     }
     .wrap h3{
         font-size: 35px;
+    }
+    .email h3{
+        font-size: 40px;
+    }
+    .ourTeam h3{
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 360px){
